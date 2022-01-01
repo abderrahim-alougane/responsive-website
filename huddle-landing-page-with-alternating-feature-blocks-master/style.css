@@ -1,0 +1,130 @@
+
+body{
+    /* background-image: url(/pictures/bg-hero-desktop.svg); */
+    background-repeat: no-repeat;
+    /* background-position: right 35% bottom 45%; */
+    /* background-size: cover; */
+    /* background-color: #EDFBFE; */
+
+    background:url(/pictures/bg-hero-desktop.svg)  #EDFBFE ;
+}
+.px-6{
+
+
+
+    padding: 19px 127px 19px 127px;
+}
+
+.bg-rose{
+    background: #FE52C2;
+}
+.sc2 .col-md-12{
+    margin-top:40px !important;
+    
+}
+.pe-6{
+
+    padding-right: 12rem !important;
+}
+.sc2 .img-fluid{
+    height: 369px !important;
+}
+.mt-6{
+    margin-top: 110px !important;
+}
+.bg-gry{
+    background-color: #00252E;
+}
+.text-white2{
+    color: #ECFEFF !important;
+}
+
+.pb-6{
+
+    padding-bottom: 253px;
+}
+.mt-7{
+    margin-top: -185px;
+}
+.row{
+    --bs-gutter-x: 0.5rem;
+    
+}
+.landing_page p{
+    padding-right: 214px !important;
+}
+
+
+@media screen  and (max-width:576px) {
+   .footerLinks{
+        justify-content: start !important;
+     
+   }
+   #FooterBtn{
+     padding: 19px 61px 19px 61px;
+   }
+   .FooterCard{
+       width: 100% !important;
+   }
+    .pe-6{
+        padding: 0rem !important;
+
+    }
+    h2{
+        text-align: center;
+    }
+    .LadingPageBtn{
+     padding: 13px 76px 13px 76px !important;
+     margin-left: 27px !important;
+     
+    
+
+    }
+    nav a{
+        padding: 7px 7px 7px 13px !important;
+        
+    }
+    nav img{
+        height: 10%!important;
+    }
+    .landing_page h1 {
+        text-align: center !important;
+        
+
+    }
+    .landing_page p{
+        padding-right: 0px !important;
+        text-align: center;
+    }
+    .col1,.col5{
+        order: 1 !important;
+        padding-left: 0rem !important;
+        text-align: center !important;
+        /* margin-top: 10px; */
+        
+
+    }
+    .col2 ,.col6{
+        order: 0 !important;
+        
+    }
+     
+    
+   
+    
+     .sc2 .img-fluid{
+        height: auto !important;
+    }
+    .copyright{
+        justify-content: center !important;
+    }
+
+    .sc2 p{
+        text-align: center !important;
+    }
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
